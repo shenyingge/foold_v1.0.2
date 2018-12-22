@@ -141,6 +141,7 @@ public class JieguoActivity extends Activity {
                     startActivity(intent1);
                 }
                 else{
+                    //拔丝地瓜
                     Uri uri = Uri.parse("https://baike.baidu.com/item/%E6%8B%94%E4%B8%9D%E5%9C%B0%E7%93%9C/2521970?fr=aladdin");
                     Intent intent1 = new Intent(Intent.ACTION_VIEW,uri);
                     startActivity(intent1);
